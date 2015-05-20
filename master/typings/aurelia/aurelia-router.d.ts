@@ -195,13 +195,13 @@ declare module 'aurelia-router/router' {
 	    refreshNavigation(): void;
 	    configure(callbackOrConfig: any): Router;
 	    createRootedPath(fragment: any): any;
-	    navigate(fragment: any, options: any): any;
-	    navigateToRoute(route: any, params: any, options: any): any;
+	    navigate(fragment: any, options?: any): any;
+	    navigateToRoute(route: any, params?: any, options?: any): any;
 	    navigateBack(): void;
 	    createChild(container: any): Router;
 	    createNavigationInstruction(url?: string, parentInstruction?: any): Promise<any>;
 	    createNavigationContext(instruction: any): any;
-	    generate(name: any, params: any): any;
+	    generate(name: any, params?: any): any;
 	    createNavModel(config: any): NavModel;
 	    addRoute(config: any, navModel: any): void;
 	    hasRoute(name: any): boolean;
