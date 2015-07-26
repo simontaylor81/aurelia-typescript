@@ -600,6 +600,7 @@ declare module 'aurelia-validation/index' {
 	export * from 'aurelia-validation/validation/validation-result';
 	export * from 'aurelia-validation/validation/validation-rules';
 	export { Validation } from 'aurelia-validation/validation/validation';
+    export { ValidationGroup } from 'aurelia-validation/validation/validation-group';
 	export { ValidateCustomAttribute } from 'aurelia-validation/validation/validate-custom-attribute';
 	export { ValidateCustomAttributeViewStrategy } from 'aurelia-validation/validation/validate-custom-attribute-view-strategy';
 	export { ValidateCustomAttributeViewStrategyBase } from 'aurelia-validation/validation/validate-custom-attribute-view-strategy';
